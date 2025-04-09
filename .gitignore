@@ -46,6 +46,12 @@ build/Release
 
 # Dependency directories
 node_modules/
+node_modules/.cache/
+.cache/
+
+# Build outputs
+dist/
+build/
 
 # Optional npm cache directory
 .npm
@@ -64,6 +70,22 @@ node_modules/
 
 # dotenv environment variables file
 .env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
 
 # dataconnect generated files
 .dataconnect
