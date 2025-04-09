@@ -4,7 +4,7 @@ FROM node:18 as build
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm ci
+RUN npm install  # Changed from npm ci to npm install
 
 COPY . .
 RUN npm run build
